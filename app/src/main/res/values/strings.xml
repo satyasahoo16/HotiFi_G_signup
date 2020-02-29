@@ -18,4 +18,6 @@
     <string name="history">History</string>
     <string name="leadership_board">Leadership Board</string>
     <string name="profile">Profile</string>
+    <string name="available_hotspots">Available Hotspots</string>
+    <string name="sell_internet">Sell Internet</string>
 </resources>
