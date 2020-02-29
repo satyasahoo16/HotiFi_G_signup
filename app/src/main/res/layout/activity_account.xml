@@ -4,7 +4,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".InternetActivity">
+    tools:context=".AccountActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:contentDescription="@string/profile_pic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginRight="200dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toEndOf="@+id/profile_pic"
+            android:layout_toRightOf="@+id/profile_pic"
+            android:text="@string/connected_to_seller_name" />
+
+    </RelativeLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,7 +44,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/sell_internet" />
+        android:text="@string/payment_options" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,7 +52,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/set_your_wifi_name" />
+        android:text="@string/settings" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,51 +60,47 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/free_wifi" />
+        android:text="@string/notifications" />
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/on" />
+        android:text="@string/edit_profile" />
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/off" />
+        android:text="@string/logout" />
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:text="@string/set_up_a_price" />
+        android:text="@string/about" />
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:hint="@string/enter_data"
-        android:importantForAutofill="no"
-        android:inputType="number" />
+        android:text="@string/report_issue_contact" />
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:hint="@string/enter_price"
-        android:importantForAutofill="no"
-        android:inputType="number" />
+        android:text="@string/rate_us_in_playstore" />
 
 
 </LinearLayout>
