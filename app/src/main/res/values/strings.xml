@@ -8,4 +8,14 @@
     <string name="enter_username">Enter username</string>
     <string name="enter_phone_number">Enter phone number</string>
     <string name="enter_date_of_birth">Enter date of birth</string>
+    <string name="profile_pic">profile_pic</string>
+    <string name="first_name">first name</string>
+    <string name="wifi_name">wifi name</string>
+    <string name="signal_strength">signal strength</string>
+    <string name="find_hotspots">Find Hotspots</string>
+    <string name="sell_data">Sell Data</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="leadership_board">Leadership Board</string>
+    <string name="profile">Profile</string>
 </resources>
