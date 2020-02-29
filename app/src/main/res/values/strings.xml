@@ -4,4 +4,8 @@
     <string name="sign_up_with_facebook">Sign up with facebook</string>
     <string name="continue_with_phone_number">Continue with phone number</string>
     <string name="hotifi">HotiFi</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="enter_date_of_birth">Enter date of birth</string>
 </resources>
