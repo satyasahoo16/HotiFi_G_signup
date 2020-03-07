@@ -2,11 +2,12 @@
     <string name="app_name">HotiFi</string>
     <string name="sign_up_with_google">Sign up with Google</string>
     <string name="sign_up_with_facebook">Sign up with facebook</string>
+    <string name="facebook_app_id">194688711814079</string>
+    <string name="fb_login_protocol_scheme">fb194688711814079</string>
     <string name="continue_with_phone_number">Continue with phone number</string>
     <string name="hotifi">HotiFi</string>
     <string name="create_account">Create Account</string>
     <string name="enter_username">Enter username</string>
-    <string name="enter_phone_number">Enter phone number</string>
     <string name="enter_date_of_birth">Enter date of birth</string>
     <string name="profile_pic">profile_pic</string>
     <string name="first_name">first name</string>
@@ -44,4 +45,7 @@
     <string name="about">About</string>
     <string name="report_issue_contact">Report issue/ Contact</string>
     <string name="rate_us_in_playstore">Rate us in playstore</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_otp">Enter OTP</string>
 </resources>

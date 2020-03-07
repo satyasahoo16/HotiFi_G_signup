@@ -14,17 +14,20 @@
         android:text="@string/hotifi"/>
 
     <Button
+        android:id="@+id/btnGoogleSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sign_up_with_google"/>
 
     <Button
+        android:id="@+id/btnFacebookSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/sign_up_with_facebook"/>
 
     <TextView
+        android:id="@+id/tvPhoneSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"

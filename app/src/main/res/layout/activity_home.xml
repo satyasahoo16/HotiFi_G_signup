@@ -52,6 +52,7 @@
         android:text="@string/signal_strength" />
 
     <Button
+        android:id="@+id/fndhtsptBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -59,6 +60,7 @@
         android:text="@string/find_hotspots" />
 
     <Button
+        android:id="@+id/sellBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -66,6 +68,7 @@
         android:text="@string/sell_internet" />
 
     <Button
+        android:id="@+id/homeBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -73,6 +76,7 @@
         android:text="@string/home" />
 
     <Button
+        android:id="@+id/profileBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -80,6 +84,7 @@
         android:text="@string/profile" />
 
     <Button
+        android:id="@+id/historyBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -87,6 +92,7 @@
         android:text="@string/history" />
 
     <Button
+        android:id="@+id/leadershipBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
