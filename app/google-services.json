@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "437970752120",
+    "firebase_url": "https://hotifi-7b393.firebaseio.com",
+    "project_id": "hotifi-7b393",
+    "storage_bucket": "hotifi-7b393.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437970752120:android:4d5d4d776e910f3605538d",
+        "android_client_info": {
+          "package_name": "com.example.hotifi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437970752120-5d9fu54rh6i11c228ptu55549fe90jju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hotifi",
+            "certificate_hash": "c4a799f10aa5a8e540c3848957982da17882282a"
+          }
+        },
+        {
+          "client_id": "437970752120-m5nhiv05bo7hbvmavjfkqc3u5e6adag9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwSWiObqip0xZ_6augJIXansqmPSBsZic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437970752120-m5nhiv05bo7hbvmavjfkqc3u5e6adag9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
